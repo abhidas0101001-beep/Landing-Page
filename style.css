@@ -1,0 +1,27 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto' , sans-serif;
+}
+
+.Hero{
+  margin: 0px;
+  padding: 0px;
+  background-color: #1F2937;
+}
+
+.nav_bar h2{
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+.nav_bar p, .Hero_Sec P{
+  font-size: 18px;
+  color: #e5e7ebc0;
+}
+.nav_bar{
+  display: flex;
+  
+}
