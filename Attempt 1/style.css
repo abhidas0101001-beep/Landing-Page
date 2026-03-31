@@ -10,6 +10,8 @@ body{
   flex-direction: column;
   gap: 50px;
   background-color: #1F2937;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
 }
 
 .nav_bar{
@@ -45,6 +47,7 @@ body{
 .Hero p{
   font-size: 15px;
   color: #e5e7ebb2;
+  
 }
 
 .Hero button{
@@ -53,4 +56,26 @@ body{
   border: none;
   padding: 5px 20px;
   border-radius: 8%;
+}
+
+.Mid{
+  display: flex;
+  flex-direction: column;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Mid h2{
+  font-size: 26px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.Mid img{
+  border: 3px solid #3882F6;
+  border-radius: 10%;
 }
